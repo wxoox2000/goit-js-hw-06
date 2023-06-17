@@ -44,4 +44,6 @@ function value(evt) {
 destroyBtn.addEventListener('click', destroyBoxes);
 function destroyBoxes(){
   boxes.innerHTML = '';
+  input.value = '';
 }
+

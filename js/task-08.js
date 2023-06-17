@@ -9,6 +9,7 @@ function handleSubmit(evt) {
   const passwordValue = password.value;
   if (!emailValue || !passwordValue) {
     alert("All fields shouldn't be empty!!");
+    return;
   }
   const data = {
     [email.name]: emailValue,
